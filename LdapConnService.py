@@ -1,6 +1,6 @@
 from ldap3 import Server, Connection, ALL, NTLM
 from flask import Flask, jsonify, request, abort
-from config import IP_SERVER_LDAP_PREF, CONFIG_SERVICO
+from config import IP_SERVER_LDAP_PREF, CONFIG_SERVICO #dicionarios de configuracao - devem ser dicionarios
 
 
 def teste_connection(user, passw):
